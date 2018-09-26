@@ -44,7 +44,7 @@
   "toppings": [
     {
       "name": "Extra Cheese",
-      "photo": "extra-cheese.jpg",
+      "photo": "extra-cheese.png",
       "additional_calories": 15,
       "price": 1.99
     },
@@ -56,103 +56,103 @@
     },
     {
       "name": "3-Cheese Blend",
-      "photo": "three-cheese.jpg",
+      "photo": "three-cheese.png",
       "additional_calories": 25,
       "price": 1.99
     },
     {
       "name": "Grilled Chicken",
-      "photo": "grilled-chicken.jpg",
+      "photo": "grilled-chicken.png",
       "additional_calories": 20,
       "price": 2.99
     },
     {
       "name": "Pepperoni",
-      "photo": "pepperoni.jpg",
+      "photo": "pepperoni.png",
       "additional_calories": 50,
       "price": 2.99
     },
     {
       "name": "Beef",
-      "photo": "beef.jpg",
+      "photo": "beef.png",
       "additional_calories": 40,
       "price": 2.99
     },
     {
       "name": "Spicy Italian Sausage",
-      "photo": "spicy-italian.jpg",
+      "photo": "spicy-italian.png",
       "additional_calories": 50,
       "price": 2.99
     },
     {
       "name": "Bacon",
-      "photo": "bacon.jpg",
+      "photo": "bacon.png",
       "additional_calories": 50,
       "price": 2.99
     },
     {
       "name": "Sausage",
-      "photo": "sausage.jpg",
+      "photo": "sausage.png",
       "additional_calories": 60,
       "price": 2.99
     },
     {
       "name": "Canadian Bacon",
-      "photo": "canadian-bacon.jpg",
+      "photo": "canadian-bacon.png",
       "additional_calories": 20,
       "price": 2.99
     },
     {
       "name": "Salami",
-      "photo": "salami.jpg",
+      "photo": "salami.png",
       "additional_calories": 20,
       "price": 2.99
     },
     {
       "name": "Mushrooms",
-      "photo": "mushrooms.jpg",
+      "photo": "mushrooms.png",
       "additional_calories": 5,
       "price": 0.99
     },
     {
       "name": "Roma Tomatoes",
-      "photo": "tomatoes.jpg",
+      "photo": "tomatoes.png",
       "additional_calories": 5,
       "price": 0.99
     },
     {
       "name": "Pineapple",
-      "photo": "pineapple.jpg",
+      "photo": "pineapple.png",
       "additional_calories": 10,
       "price": 0.99
     },
     {
       "name": "Onions",
-      "photo": "onions.jpg",
+      "photo": "onions.png",
       "additional_calories": 5,
       "price": 0.99
     },
     {
       "name": "Black Olives",
-      "photo": "olives.jpg",
+      "photo": "olives.png",
       "additional_calories": 15,
       "price": 0.99
     },
     {
       "name": "Jalapeno Peppers",
-      "photo": "jalapeno-peppers.jpg",
+      "photo": "jalapeno-peppers.png",
       "additional_calories": 0,
       "price": 0.99
     },
     {
       "name": "Banana Peppers",
-      "photo": "banana-peppers.jpg",
+      "photo": "banana-peppers.png",
       "additional_calories": 0,
       "price": 0.99
     },
     {
       "name": "Green Peppers",
-      "photo": "green-peppers",
+      "photo": "green-peppers.png",
       "additional_calories": 0,
       "price": 0.99
     }
