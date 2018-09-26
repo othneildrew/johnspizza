@@ -1,0 +1,291 @@
+{
+  "pizza": [
+    {
+      "name": "Cheese",
+      "photo": "cheese.jpg",
+      "description": "Real cheese made from mozzarella, pizza sauce and buttery garlic crust.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 300,
+      "price": 10
+    },
+    {
+      "name": "Pepperoni",
+      "photo": "pepperoni.jpg",
+      "description": "Premium pepperoni, real cheese made from mozzarella and buttery garlic crust.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 310,
+      "price": 10
+    },
+    {
+      "name": "Sausage",
+      "photo": "sausage.jpg",
+      "description": "Sausage and real cheese made from mozzarella and buttery garlic crust.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 330,
+      "price": 10
+    },
+    {
+      "name": "Chicken",
+      "photo": "chicken.jpg",
+      "description": "Premium all-white chicken and real cheese made with mozzarella and buttery garlic crust.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 320,
+      "price": 10
+    },
+    {
+      "name": "Garden",
+      "photo": "garden.jpg",
+      "description": "Mushrooms, black olives, onions, sliced tomatoes, pizza sauce and signature three-cheese blend.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 280,
+      "price": 10
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Cheese",
+      "photo": "extra-cheese.jpg",
+      "additional_calories": 15,
+      "price": 1.99
+    },
+    {
+      "name": "Parmesan Romano",
+      "photo": "parmesan.jpg",
+      "additional_calories": 20,
+      "price": 1.99
+    },
+    {
+      "name": "3-Cheese Blend",
+      "photo": "three-cheese.jpg",
+      "additional_calories": 25,
+      "price": 1.99
+    },
+    {
+      "name": "Grilled Chicken",
+      "photo": "grilled-chicken.jpg",
+      "additional_calories": 20,
+      "price": 2.99
+    },
+    {
+      "name": "Pepperoni",
+      "photo": "pepperoni.jpg",
+      "additional_calories": 50,
+      "price": 2.99
+    },
+    {
+      "name": "Beef",
+      "photo": "beef.jpg",
+      "additional_calories": 40,
+      "price": 2.99
+    },
+    {
+      "name": "Spicy Italian Sausage",
+      "photo": "spicy-italian.jpg",
+      "additional_calories": 50,
+      "price": 2.99
+    },
+    {
+      "name": "Bacon",
+      "photo": "bacon.jpg",
+      "additional_calories": 50,
+      "price": 2.99
+    },
+    {
+      "name": "Sausage",
+      "photo": "sausage.jpg",
+      "additional_calories": 60,
+      "price": 2.99
+    },
+    {
+      "name": "Canadian Bacon",
+      "photo": "canadian-bacon.jpg",
+      "additional_calories": 20,
+      "price": 2.99
+    },
+    {
+      "name": "Salami",
+      "photo": "salami.jpg",
+      "additional_calories": 20,
+      "price": 2.99
+    },
+    {
+      "name": "Mushrooms",
+      "photo": "mushrooms.jpg",
+      "additional_calories": 5,
+      "price": 0.99
+    },
+    {
+      "name": "Roma Tomatoes",
+      "photo": "tomatoes.jpg",
+      "additional_calories": 5,
+      "price": 0.99
+    },
+    {
+      "name": "Pineapple",
+      "photo": "pineapple.jpg",
+      "additional_calories": 10,
+      "price": 0.99
+    },
+    {
+      "name": "Onions",
+      "photo": "onions.jpg",
+      "additional_calories": 5,
+      "price": 0.99
+    },
+    {
+      "name": "Black Olives",
+      "photo": "olives.jpg",
+      "additional_calories": 15,
+      "price": 0.99
+    },
+    {
+      "name": "Jalapeno Peppers",
+      "photo": "jalapeno-peppers.jpg",
+      "additional_calories": 0,
+      "price": 0.99
+    },
+    {
+      "name": "Banana Peppers",
+      "photo": "banana-peppers.jpg",
+      "additional_calories": 0,
+      "price": 0.99
+    },
+    {
+      "name": "Green Peppers",
+      "photo": "green-peppers",
+      "additional_calories": 0,
+      "price": 0.99
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Pepsi",
+      "photo": "pepsi.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 900,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 250,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Mountain Dew",
+      "photo": "mtn-dew.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 1020,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 290,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Diet Pepsi",
+      "photo": "diet-pepsi.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 0,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 0,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Aquafina Water",
+      "photo": "aquafina-water.jpg",
+      "servings": {
+        "twenty_ounce": {
+          "calorie": 0,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Sierra Mist",
+      "photo": "sierra.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 900,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 250,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Crush Orange",
+      "photo": "crush.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 1010,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 300,
+          "price": 1.49
+        }
+      }
+    },
+    {
+      "name": "Mug Root Beer",
+      "photo": "mug.jpg",
+      "servings": {
+        "two_liter": {
+          "calorie": 850,
+          "price": 2.79
+        },
+        "twenty_ounce": {
+          "calorie": 250,
+          "price": 1.49
+        }
+      }
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Donut Holes",
+      "photo": "donut-holes.jpg",
+      "description": "Ten oven-baked Donut Holes filled with caramel cream. Perfect for sharing, or not.",
+      "serving_size": "10 donut holes",
+      "calorie_per_serving": 580,
+      "price": 4.99
+    },
+    {
+      "name": "Cinnamon Pull Aparts",
+      "photo": "cinn-pull-aparts.jpg",
+      "description": "Bite-sized sweet roll dough covered in cinnamon and sugar, topped with cinnamon crumbles then baked and drizzled with cream cheese icing.",
+      "serving_size": "1 tray",
+      "calorie_per_serving": 1960,
+      "price": 6.99
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "photo": "chocolate-chip-cookie.jpg",
+      "description": "Loaded with chocolate chips, cut into 8 slices, served warm.",
+      "serving_size": "1 slice, 8 slices",
+      "calorie_per_serving": 190,
+      "price": 6.99
+    },
+    {
+      "name": "Double Chocolate Chip Brownie",
+      "photo": "chocolate-chip-brownie.jpg",
+      "description": "Filled with chocolate chips, cut into 9 squares and served warm.",
+      "serving_size": "1 square, 9 squares",
+      "calorie_per_serving": 240,
+      "price": 6.99
+    }
+  ]
+
+}
