@@ -1,0 +1,73 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D72323;
+}
+
+h3 {
+  color: #3D464F;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.btn-CTA {
+  background-color: #D72323;
+  color: white;
+}
+
+#home-landing {
+  height: 100vh;
+  background: url('/images/background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.navbar {
+  height: 120px;
+}
+
+.navbar-brand img {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.jumbotron-center-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#value-proposition {
+  background-color: white;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
