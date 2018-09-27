@@ -7,8 +7,16 @@ body {
   background-color: #D72323;
 }
 
-h3 {
+
+
+h2 {
   color: #3D464F;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+h3 {
+  color: #D72323;
   font-size: 1.5em;
   font-weight: 600;
 }
@@ -43,12 +51,25 @@ h3 {
   height: 100%;
 }
 
-
+.card-img-top {
+  width: 100%;
+  height: 160px;
+}
 
 #value-proposition {
   background-color: white;
 }
 
+#customer-favorites {
+  min-height: 800px;
+  background-color: #F7F7F7;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 8vw)
+  );
+}
 
 
 
