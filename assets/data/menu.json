@@ -50,7 +50,7 @@
     },
     {
       "name": "Parmesan Romano",
-      "photo": "parmesan.jpg",
+      "photo": "parmesan.png",
       "additional_calories": 20,
       "price": 1.99
     },
@@ -140,13 +140,13 @@
     },
     {
       "name": "Jalapeno Peppers",
-      "photo": "jalapeno-peppers.png",
+      "photo": "jalapeno-peppers.jpg",
       "additional_calories": 0,
       "price": 0.99
     },
     {
       "name": "Banana Peppers",
-      "photo": "banana-peppers.png",
+      "photo": "banana-peppers.jpg",
       "additional_calories": 0,
       "price": 0.99
     },
@@ -265,7 +265,7 @@
     {
       "name": "Cinnamon Pull Aparts",
       "photo": "cinn-pull-aparts.jpg",
-      "description": "Bite-sized sweet roll dough covered in cinnamon and sugar, topped with cinnamon crumbles then baked and drizzled with cream cheese icing.",
+      "description": "Covered in cinnamon and sugar, topped with cinnamon crumbles, drizzled with cream cheese icing.",
       "serving_size": "1 tray",
       "calorie_per_serving": 1960,
       "price": 6.99

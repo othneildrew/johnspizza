@@ -53,6 +53,10 @@ h3 {
   background-size: cover;
 }
 
+.brand-logo {
+  width: 80px;
+  height: auto;
+}
 
 .navbar-brand img {
   margin: 0;
@@ -78,14 +82,15 @@ h3 {
   background-color: white;
 }
 
-#customer-favorites {
-  min-height: 840px;
+#customer-favorites,
+#menu {
+  min-height: 1040px;
   background-color: #D72323;
   clip-path: polygon(
     0 0,
     100% 0,
     100% 100%,
-    0 calc(100% - 8vw)
+    0 calc(100% - 5vw)
   );
 }
 
@@ -93,15 +98,26 @@ footer {
   background-color: #17202A;
 }
 
-.brand-logo {
-  width: 80px;
-  height: auto;
-}
-
 .copy-text {
   font-size: .8em;
 }
 
+.grid-price {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.menu-card {
+  min-height: 36em;
+}
+
+#menu-loader {
+  height: 200px;
+}
+
+.menu-grid-container {
+  display: none;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -112,14 +128,15 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  .card {
+  .card-testimonital {
     min-height: 38em;
   }
 
   .card-img-top {
     width: 100%;
-    height: 260px;
+    height: 240px;
   }
+
 
 }
 
@@ -138,8 +155,9 @@ footer {
 
   .card-img-top {
     width: 100%;
-    height: 240px;
+    height: 180px;
   }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
