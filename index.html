@@ -7,7 +7,7 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <link rel="icon" type="image/png" href="favicon.png">
   <meta name="viewport" content="initial-scale=1, shrink-to-fit=no, width=device-width">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
   <link rel="stylesheet" href="assets/material-4.1.1/css/material.min.css">
   <link rel="stylesheet" href="style.css">
@@ -19,37 +19,34 @@
     <div class="container jumbotron-center-main">
 
       <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" id="main-navbar">
         <div class="container">
           <a class="navbar-brand" href="javascript:void(0)">
             <img src="images/brand/logo_transparent.png" class="d-inline-block align-top" alt="">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link font-weight-bold active" href="#">HOW IT WORKS</a>
-              <a class="nav-item nav-link font-weight-bold" href="#">MENU</a>
+              <a class="nav-item nav-link font-weight-bold active" href="#how-it-works">HOW IT WORKS</a>
+              <a class="nav-item nav-link font-weight-bold" href="menu.html">MENU</a>
             </div>
           </div>
-          <a class="btn btn-lg btn-CTA" href="#" role="button">Start Order</a>
+          <a class="btn btn-lg btn-CTA" href="order.html" role="button">Start Order</a>
         </div><!-- END container -->
       </nav>
       <!-- END Navbar -->
 
       <div class="text-center text-white">
-        <h1 class="display-2 font-weight-bold">Any Pizza, Free Delivery, Starts at $10</h1>
-        <p class="lead font-weight-bold">No signups, no logins, Just Great Pizza!</p>
-        <a class="btn btn-lg btn-CTA" href="#" role="button">Start Order</a>
+        <h1 class="display-2 font-weight-bold text-shadow">Any Pizza, Free Delivery, Starts at $10</h1>
+        <p class="lead font-weight-bold text-shadow">No signups, no logins, Just Great Pizza!</p>
+        <a class="btn btn-lg btn-CTA mt-4 py-3 px-5 shadow-lg" href="order.html" role="button">Start Order</a>
       </div>
     </div>
   </div><!-- END jumbotron -->
 
-  <section class="container-fluid py-5" id="value-proposition">
+  <section class="container-fluid py-5" id="how-it-works">
     <div class="container text-center">
-      <h2>Get Great Pizza!</h2>
-      <p class="lead">in 4 simple steps</p>
+      <h2>Skip The Drive!</h2>
+      <p class="lead">Get Great Pizza In 4 Simple Steps</p>
 
       <div class="row">
         <div class="col-6 col-md-3 pt-5">
@@ -84,65 +81,109 @@
 
   <section class="container-fluid py-5" id="customer-favorites">
     <div class="container text-center">
-      <h2>Customer Favorites</h2>
-      <p class="lead">based on ratings</p>
+      <h2 class="text-white">Customer Favorites</h2>
+      <p class="text-light lead">Based on ratings</p>
 
       <div class="row">
-        <div class="col-6 col-md-3 pt-5">
-          <div class="card shadow-none">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 px-2">
+          <div class="card my-2 shadow-none">
+            <img class="card-img-top" src="images/menu-items/pizza/garden.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-left font-weight-bold">Garden Pizza</h5>
+              <p class="card-text text-left"><i class="material-icons">format_quote</i>The service is outstanding and that everything is fresh and great especially the pizza i would want to go back.</p>
+
+              <span class="text-success">Reviewed by</span>
+              <span class="chip">
+                <img alt="Chip Image" class="chip-img" src="images/customers/christine.jpg">
+                Christine
+              </span>
+
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=garden" role="button">Try It!</a>
             </div>
           </div><!-- END card -->
         </div><!-- END col -->
 
-        <div class="col-6 col-md-3 pt-5">
-          <div class="card shadow-none">
-            <img class="card-img-top" src="images/menu-items/pizza/pepperoni.jpg" alt="Card image cap">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 px-2">
+          <div class="card my-2 shadow-none">
+            <img class="card-img-top" src="images/menu-items/pizza/pepperoni.jpg" alt="Pepperoni Pizza">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-left font-weight-bold">Pepperoni Pizza</h5>
+              <p class="card-text text-left"><i class="material-icons">format_quote</i>John's Pizza is sooooooooo awesome!!! CJ was really friendly and delivered the most delicious pizza ever.</p>
+
+              <span class="text-success">Reviewed by</span>
+              <span class="chip">
+                <img alt="Chip Image" class="chip-img" src="images/customers/chloe.jpg">
+                Chloe
+              </span>
+
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=pepperoni" role="button">Try It!</a>
             </div>
           </div><!-- END card -->
         </div><!-- END col -->
 
-        <div class="col-6 col-md-3 pt-5">
-          <div class="card">
-            <img class="card-img-top" src="images/menu-items/pizza/cheese.jpg" alt="Card image cap">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 px-2">
+          <div class="card my-2 shadow-none">
+            <img class="card-img-top" src="images/menu-items/pizza/cheese.jpg" alt="Cheese Pizza">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-left font-weight-bold">Cheese Pizza</h5>
+              <p class="card-text text-left"><i class="material-icons">format_quote</i>Visiting from out of town and a friend suggested John's Pizza.  She was spot on...so good.</p>
+
+              <span class="text-success">Reviewed by</span>
+              <span class="chip">
+                <img alt="Customer Image" class="chip-img" src="images/customers/victor.jpg">
+                Victor
+              </span>
+
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=cheese" role="button">Try It!</a>
             </div>
           </div><!-- END card -->
         </div><!-- END col -->
 
-        <div class="col-6 col-md-3 pt-5">
-          <div class="card">
-            <img class="card-img-top" src="images/menu-items/desserts/chocolate-chip-brownie.jpg" alt="Card image cap">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-4 col-xl-3 offset-xl-0 mt-3 px-2">
+          <div class="card my-2 shadow-none">
+            <img class="card-img-top" src="images/menu-items/desserts/chocolate-chip-brownie.jpg" alt="Chocolate Chip Brownie">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title text-left font-weight-bold">Chocolate Chip Brownie</h5>
+              <p class="card-text text-left"><i class="material-icons">format_quote</i>I think I'm in love! It's just so good! Melts in your mouth and leaves you wanting more.</p>
+
+              <span class="text-success">Reviewed by</span>
+              <span class="chip">
+                <img alt="Customer Image" class="chip-img" src="images/customers/rikki.jpg">
+                Rikki
+              </span>
+
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=doublechocolatechipbrownie" role="button">Try It!</a>
             </div>
           </div><!-- END card -->
         </div><!-- END col -->
+
       </div><!-- END row -->
-
     </div><!-- END container -->
   </section><!-- END container-fluid -->
 
 
 
-  <h1>Hello, world!
-      <br />jalsjdasdf
-      <br />jaklsjdfsdf
-      <br />sljdfsdf
-  </h1>
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+
+      <img class="brand-logo" src="/images/brand/logo_transparent.png" alt="Logo">
+      <p class="display-4 text-white">John's Pizza</p>
+      <p class="lead text-light">Just Great Pizza!</p>
+      <p class="copy-text text-light">Copyright &copy; 2018 John's Pizza, Inc. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- END footer -->
+
+
 
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
