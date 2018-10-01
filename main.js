@@ -18,7 +18,7 @@ $(function() {
 
     // Fetch pizza
     $.each(data.pizza, function(key, value) {
-      $('.pizza-grid').append('<div class="col-12 col-md-6 col-lg-4 col-xl-3 px-2"><div class="card menu-card my-2 shadow-none"><img class="card-img-top" src="images/menu-items/pizza/'+ value.photo +'" alt="'+ value.name +' Pizza"><div class="card-body"><h5 class="card-title text-left font-weight-bold">'+ key +' Pizza</h5><p class="card-text text-left">'+ value.description +'</p><p class="text-success text-left"><em>'+ value.calorie_per_serving +' calories</em></p><p class="grid-price">$'+ value.price +'</p></div><div class="card-footer"><a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=garden" role="button">Start With This!</a></div></div></div>');
+      $('.pizza-grid').append('<div class="col-12 col-md-6 col-lg-4 col-xl-3 px-2"><div class="card menu-card my-2 shadow-none"><img class="card-img-top" src="images/menu-items/pizza/'+ value.photo +'" alt="'+ value.name +' Pizza"><div class="card-body"><h5 class="card-title text-left font-weight-bold">'+ value.name +' Pizza</h5><p class="card-text text-left">'+ value.description +'</p><p class="text-success text-left"><em>'+ value.calorie_per_serving +' calories</em></p><p class="grid-price">$'+ value.price +'</p></div><!--<div class="card-footer"><a class="btn btn-block shadow-sm btn-lg btn-CTA" href="order.html?item=garden" role="button">Start With This!</a></div>--></div></div>');
     });
 
     // Fetch toppings
@@ -40,7 +40,10 @@ $(function() {
 
 
 
+
   });
+
+
 
 
 
